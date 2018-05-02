@@ -7,11 +7,11 @@ using namespace std;
 class student
 {
 private:
-    string first;
-    string last;
+    string firstName;
+    string lastName;
 
 public:
-    void setName(string, string);
+    void setName(string s1, string s2);
     string fullName();
 };
 
